@@ -4,3 +4,17 @@ rounds/SRS-UX-002/original_reports/**/*.txt -text
 preserved_freezes/** -text
 rounds/STUDIO-SCOPE-001/original_reports/gemini/Pasted* -text
 rounds/SRS-UX-002/original_reports/gemini/**/*.txt -text
+
+# UNIVERSAL-ARCH-001 evidence-index.json recorded these files' SHA-256 from a CRLF
+# (Windows) working tree. Check them out as CRLF on every OS so verify_design.py
+# reproduces the recorded hashes. Stored blobs and recorded hashes are unchanged.
+rounds/SRS-UX-002/DECISIONS.md text eol=crlf
+rounds/SRS-UX-002/EXPERIMENT.md text eol=crlf
+rounds/SRS-UX-002/README.md text eol=crlf
+rounds/SRS-UX-002/UXEC_SPEC.md text eol=crlf
+rounds/SRS-UX-002/original_reports/README.md text eol=crlf
+rounds/SRS-UX-002/original_reports/gemini/README.md text eol=crlf
+rounds/SRS-UX-002/original_reports/gemini/ux-ui-architecture/MANIFEST.json text eol=crlf
+rounds/SRS-UX-002/original_reports/gemini/ux-ui-architecture/README.md text eol=crlf
+rounds/STUDIO-SCOPE-001/original_reports/gemini/MANIFEST.json text eol=crlf
+rounds/STUDIO-SCOPE-001/original_reports/gemini/README.md text eol=crlf
