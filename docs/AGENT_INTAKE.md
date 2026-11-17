@@ -17,9 +17,11 @@
 
 A previous report type is **not** inherited when the user changes the deliverable. If a corrected report already exists, review/use it as supplied evidence rather than silently repeat it. When the request lacks a report type, use `MODEL_ASSISTED_ENGINEERING` for building/maintenance and `UNIVERSAL_PROJECT_ASSESSMENT` for clearly requested comprehensive evaluation. Do not invent missing requirements or block on nonessential questions.
 
-## 2. Open a scoped intake record
+## 2. Create a durable intake record only when needed
 
-Record at least:
+For routine `MODEL_ASSISTED_ENGINEERING`, keep the request, scope and relevant assumptions in the working conversation. **Do not create an intake file, canonical record, assessment packet or handoff merely to satisfy this section.**
+
+Create a durable intake record only for an explicitly requested comprehensive assessment or research-checkpoint review, a consequential task that needs persistent provenance/approval/evidence, or when the user asks for one. When a durable record is warranted, include:
 
 - `intake_id`, UTC date, request text/goal, chosen report mode and actor/owner.
 - Subject kind (existing repository, new project, system design or research checkpoint), repository URL **when supplied**, and exact commit/revision or `UNPINNED`.
